@@ -31,6 +31,7 @@ h1, h2, h3{
 
 p{
     margin-top: 1px;
+    color: #fff;
 }
 
 ol, ul{
@@ -130,14 +131,13 @@ color: #EAEAEB;
     padding: 1.5em;
     height: 40em;
     width: 30em;
-    text-align:justify;
+    text-align:left;
     border-left:2px solid;
 }
 
-#c-center{
-    text-align: center;
+#c-right{
+    border-right: 2px solid;
 }
-
 .column img{
     height: 25em;
     display: block;
