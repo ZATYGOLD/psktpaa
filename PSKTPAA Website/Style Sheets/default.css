@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+	height: auto;
+    width: auto;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #606162;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #606162
+}
+
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+.h2-spacing{
+     padding-bottom: 1em;
+    text-align: center;
+}
+
+p{
+    margin-top: 1px;
+}
+
+ol, ul{
+	padding: 0;
+	list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+	margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header{
+    overflow: hidden;
+    padding: 0em 25em 0em 25em;
+    height: 7.5em;
+    background: #C91F3C;
+}
+
+.page-top{
+    position: absolute;
+    top: 0em;
+    left: 8em;
+    right: 8em;
+    
+}
+
+#header img{
+    height: 100px;
+    
+}
+
+#title-box{
+    padding: 4em 0em;
+    text-align: center;
+}
+	
+#title-box h1{
+    font-size: 2.25em;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu{
+    background: #ACACAC;
+    margin: 0px;
+	}
+	
+#menu ul{
+    text-align: center;
+}
+	
+li{
+    display: inline-block;
+}
+	
+#menu li a{
+    display: inline-block;
+    margin-left: 0.50em;
+    padding: 2em 1.5em 1em 1.5em;
+    letter-spacing: 0.20em;
+    font-size: 0.90em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+	
+#menu li:hover a{
+color: #EAEAEB;
+}
+	
+
+/*********************************************************************************/
+/* Body Content                                                                  */
+/*********************************************************************************/
+
+#body-content{	
+    overflow: hidden;
+	padding: 5em 5em;
+	background: #000;
+    text-align: center;
+}
+
+.column{
+    display: inline-table;
+    padding: 1.5em;
+    height: 40em;
+    width: 30em;
+    text-align:justify;
+    border-left:2px solid;
+}
+
+#c-center{
+    text-align: center;
+}
+
+.column img{
+    height: 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*********************************************************************************/
+/* Footer Content                                                                  */
+/*********************************************************************************/
